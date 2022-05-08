@@ -20,7 +20,9 @@ const Hero = () => (
         developers to take their development skills to the next level and build
         awesome apps.
       </SectionText>
-      <Button onClick={() => (window.location = 'mailto:thepannu786@gmail.com')}>
+      <Button
+        onClick={() => (window.location = 'mailto:thepannu786@gmail.com')}
+      >
         Learn More
       </Button>
     </LeftSection>
