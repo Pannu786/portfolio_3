@@ -1,46 +1,46 @@
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Share-it App',
+    description:
+      'A social media app which use Google Authentication, users can create, edit, delete and save posts, able to like and leave comments and filter images.',
+    image: '/images/share-it.png',
+    tags: ['Sanity', 'Tailwind Css', 'React', 'Node'],
+    visit: 'https://github.com/Pannu786/share_pics_app_frontend',
+    source: 'https://pannu-share-pics-app.netlify.app/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Real Estate App',
+    description:
+      'This is a real-estate-app that uses an API for searching for rental and buying properties. User can filter the property details page. ',
+    image: '/images/realestate.png',
+    tags: ['React', 'Next', 'Chakra UI'],
+    source: 'https://pannu-realstate.vercel.app/',
+    visit: 'https://github.com/Pannu786/realstate-app',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Ecommerce',
+    description:
+      'An Ecommerce app where user can add products to cart and later checkout pay via Stripe payment.',
+    image: 'images/ecommerce.png',
+    tags: ['React', 'Next', 'Sanity', 'Stripe'],
+    source: 'https://ecommerce-pannu786.vercel.app/',
+    visit: 'https://github.com/Pannu786/ecommerce',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Travel App',
+    description:
+      'A very useful when you are traveling. Users can search for Hotels, Restaurants, and more. Using an travel API and Google Map API in this project.',
+    image: '/images/travel app.png',
+    tags: ['React', 'Material UI',],
+    source: 'https://pannu-travelapp.netlify.app/',
+    visit: 'https://github.com/Pannu786/travel-app',
     id: 3,
   },
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
-];
+

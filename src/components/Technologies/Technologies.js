@@ -1,5 +1,6 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import {FcGoogle} from 'react-icons/fc';
 import {
   Section,
   SectionDivider,
@@ -20,8 +21,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Techinologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world. From
-      Back-end To Design
+      I've worked with a range a technologies in the web development world. 
     </SectionText>
     <List>
       <ListItem>
@@ -38,19 +38,19 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br /> Node and Databases
+            Experience with <br /> Node
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <DiZend size='3rem' />
+      {/* <ListItem>
+        <FcGoogle size='2rem' />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Googling</ListTitle>
           <ListParagraph>
-            Experience with <br /> tools like Figma
+            Searching <br /> Brave Browser
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
     </List>
   </Section>
 );

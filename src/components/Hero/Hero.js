@@ -16,14 +16,14 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established
-        developers to take their development skills to the next level and build
-        awesome apps.
+        Hi I'm Harpreet Singh Pannu, highly motivated, self-starting developer seeking
+        to launch a career building web applications and services. Familiar with
+        development and deployment process for many web-based technologies.
       </SectionText>
       <Button
         onClick={() => (window.location = 'mailto:thepannu786@gmail.com')}
       >
-        Learn More
+        Contact Me
       </Button>
     </LeftSection>
   </Section>

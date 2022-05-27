@@ -40,21 +40,10 @@ const Header = () => (
           <NavLink>Technologies </NavLink>
         </Link>
       </li>
-      <li>
-        <Link href='#about'>
-          <NavLink>About </NavLink>
-        </Link>
-      </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com'>
+      <SocialIcons href='https://github.com/Pannu786'>
         <AiFillGithub size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='https://linkedin.com'>
-        <AiFillLinkedin size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='https://instagram.com'>
-        <AiFillInstagram size='3rem' />
       </SocialIcons>
     </Div3>
   </Container>
